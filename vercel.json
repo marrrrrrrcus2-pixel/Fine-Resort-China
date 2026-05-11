@@ -1,5 +1,7 @@
 {
-  "rewrites": [
-    { "source": "/((?!WW_verify_).*)", "destination": "/index.html" }
+  "outputDirectory": "dist",
+  "routes": [
+    { "src": "/WW_verify_SZoWOjkNtWZqLkfl.txt", "dest": "/WW_verify_SZoWOjkNtWZqLkfl.txt" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
