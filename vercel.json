@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/((?!WW_verify_).*)", "destination": "/index.html" }
+  ]
+}
